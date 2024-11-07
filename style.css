@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  flex-direction: column;
+  gap: 10px;
+}
+.hover-button {
+  background-color: #3498db; /* Blue background */
+  color: white;             /* White text */
+  padding: 10px 20px;       /* Padding */
+  font-size: 16px;          /* Font size */
+  border: none;             /* Remove border */
+  border-radius: 5px;       /* Rounded corners */
+  cursor: pointer;          /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.hover-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  transform: scale(1.05);    /* Slightly larger on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+#pokemonName{
+  width: 200px;
+  height: 30px;
+  border: 2px solid;
+  border-radius: 15px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+#pokemonName :hover{
+  background-color: #2980b9; /* Darker blue on hover */
+  transform: scale(1.05);    /* Slightly larger on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
